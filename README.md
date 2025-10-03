@@ -2,6 +2,7 @@
 ## Скриншоты ##
 <img width="2544" height="1339" alt="image" src="https://github.com/user-attachments/assets/0ace55e5-0cce-4126-8c13-ba8a0f984d0e" />
 <img width="778" height="955" alt="image" src="https://github.com/user-attachments/assets/ff7699a9-32b9-4623-9f2d-577f6f88dd69" />
+
 ## Какие семантические теги вы использовали? 
 
 ### Шапка сайта
