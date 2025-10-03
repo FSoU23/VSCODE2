@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Современный макет сайта</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======= Шапка сайта ======= -->
+<header class="header">Шапка сайта</header>
+
+<!-- ======= Навигация ======= -->
+<nav class="nav">
+    <a href="#">Главная</a>
+    <a href="#">Новости</a>
+    <a href="#">О нас</a>
+    <a href="#">Контакты</a>
+    <button class="projects-btn" onclick="openModal()">Мои проекты 🚀</button>
+</nav>
+
+<!-- ======= Основной контент ======= -->
+<main>
+    <div class="content">
+        <h1>Добро пожаловать!</h1>
+        <p>Это современный макет сайта с адаптивной версткой и интерактивными элементами.</p>
+    </div>
+    <aside class="sidebar">
+        <h3>Боковая панель</h3>
+        <p>Дополнительная информация и ссылки.</p>
+    </aside>
+</main>
+
+<hr>
+
+<!-- ======= Страница с 3 колонками ======= -->
+<div class="three-columns">
+    <div class="left">Меню сайта</div>
+    <div class="center">Центральный контент страницы</div>
+    <div class="right">Реклама / баннеры</div>
+</div>
+
+<hr>
+
+<!-- ======= Новостная лента ======= -->
+<section class="news">
+    <h2>Последние новости</h2>
+    <div class="news-grid">
+        <div class="news-item">Новость 1: заголовок и краткое описание.</div>
+        <div class="news-item">Новость 2: заголовок и краткое описание.</div>
+        <div class="news-item">Новость 3: заголовок и краткое описание.</div>
+        <div class="news-item">Новость 4: заголовок и краткое описание.</div>
+        <div class="news-item">Новость 5: заголовок и краткое описание.</div>
+        <div class="news-item">Новость 6: заголовок и краткое описание.</div>
+    </div>
+</section>
+
+<footer class="footer">Каташинский Александр © 2025</footer>
+
+<!-- ======= Модальное окно ======= -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <h3>Мои проекты</h3>
+        <p>Здесь будет информация о проектах. В разработке...</p>
+        <button class="close-modal" onclick="closeModal()">Закрыть</button>
+    </div>
+</div>
+
+<script>
+function openModal() { document.getElementById('modal').style.display = 'flex'; }
+function closeModal() { document.getElementById('modal').style.display = 'none'; }
+window.onclick = function(e) { if (e.target === document.getElementById('modal')) closeModal(); }
+</script>
+
+</body>
+</html>
